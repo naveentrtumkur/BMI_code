@@ -85,6 +85,7 @@ names(data) <- tolower(names(data))
 names(data) <- gsub("_", ".", names(data))
 names(data)
 str(data)
+class(data$bmi)
 
 ## The 'ldl.chol.calc' variable is still being read in as a factor.  Let's repeat the
 ##  steps we used for 'bmi' and 'cholesterol' previously to convert this to a numeric
